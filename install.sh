@@ -13,7 +13,7 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © VALLZ OFFC                [+]${NC}"
+  echo -e "${BLUE}[+]                  © YUDA MODS                [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] =============================================== [+]${NC}"
   echo -e ""
@@ -21,11 +21,11 @@ display_welcome() {
   echo -e "dilarang keras untuk memperjual belikan."
   echo -e ""
   echo -e "𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 :"
-  echo -e "0856-4122-5753"
+  echo -e "0831-5330-5709"
   echo -e "𝗬𝗢𝗨𝗧𝗨𝗕𝗘 :"
-  echo -e "@vallz134"
+  echo -e "@YUDAMODS"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@VallzOffc"
+  echo -e "@YUDAMODS"
   sleep 4
   clear
 }
@@ -58,16 +58,16 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY VALLZ OFFC             [+]${NC}"
+  echo -e "${BLUE}[+]               LICENSY YUDAMODS             [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "VallzOffc" ]; then
+  if [ "$USER_TOKEN" = "yudamods" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Buy dulu Weh Ke Vallzoffc No 6285641225753${NC}"
+    echo -e "${GREEN}Buy dulu Weh Ke YudaMods No 6283153305709{NC}"
     exit 1
   fi
   clear
@@ -90,7 +90,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/vallzprivate/theme/raw/main/C2.zip")
+        THEME_URL=$(echo -e "https://github.com/YUDAMODS/Theme/raw/main/C2.zip")
         break
         ;;
       2)
@@ -243,7 +243,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/C2.zip https://github.com/vallzprivate/theme/raw/main/C2.zip
+wget -O /root/C2.zip https://github.com/YUDAMODS/Theme/raw/main/C2.zip
 
 # Ekstrak file tema
 unzip /root/C2.zip -d /root/pterodactyl
